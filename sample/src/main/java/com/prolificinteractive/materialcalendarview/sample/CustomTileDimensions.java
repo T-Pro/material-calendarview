@@ -1,11 +1,12 @@
 package com.prolificinteractive.materialcalendarview.sample;
 
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import android.widget.NumberPicker;
 import butterknife.BindView;

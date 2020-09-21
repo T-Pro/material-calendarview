@@ -31,9 +31,9 @@ archivesBaseName = 'material-calendarview'
 
 dependencies {
   implementation rootProject.ext.threeTenAbp
-  implementation rootProject.ext.supportV4
   implementation rootProject.ext.supportAppCompat
-  implementation rootProject.ext.supportAnnotations
+  implementation 'org.jetbrains:annotations:15.0'
+//  implementation rootProject.ext.supportAnnotations
 
   rootProject.ext.testDep.each { testImplementation it }
   rootProject.ext.androidTestDep.each { androidTestImplementation it }

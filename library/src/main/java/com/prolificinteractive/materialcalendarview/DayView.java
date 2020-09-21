@@ -13,12 +13,14 @@ import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.AppCompatCheckedTextView;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.view.Gravity;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatCheckedTextView;
+
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView.ShowOtherDates;
 import com.prolificinteractive.materialcalendarview.format.DayFormatter;
 import java.util.List;
